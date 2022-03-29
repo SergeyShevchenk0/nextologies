@@ -1,0 +1,25 @@
+.btn { padding: 8px 12px; border-radius: 4px; font: var(--font); display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-sizing: border-box; box-sizing: border-box; height: 40px; vertical-align: top; outline: none; -webkit-animation-duration: 150ms; animation-duration: 150ms; border: 0; background: var(--action); color: var(--white); }
+
+.btn img { vertical-align: middle; }
+
+.btn:hover { background: #5693ff; }
+
+.btn:focus { background: #367bf5; }
+
+.btn:active { background: #5693ff; opacity: 0.5; }
+
+.btn.border { border: 3px solid var(--pale-str); color: var(--gray-dark); }
+
+.btn.btn-gray { background: var(--pale-str); color: var(--black); }
+
+.btn.btn-gray:hover { background: #dbe0e0; }
+
+.btn.btn-gray:focus { background: #e3e5e5; border: 1px solid rgba(0, 0, 0, 0.05); }
+
+.btn.btn-gray:active { background: #dbe0e0; }
+
+.btn.btn-green { background: var(--ok); }
+
+.btn.btn-green:hover { background-color: #54cf75; }
+
+/*# sourceMappingURL=../../../maps/elements/btn/btn.css.map */

@@ -1,0 +1,37 @@
+.notifications {
+  width: 400px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: var(--white);
+  padding: 8px;
+  box-sizing: border-box;
+  .range-holder,
+  header {
+    padding: 8px 0;
+    margin: 0 0 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .range-holder {
+    margin: 0 0 8px;
+    .input {
+      min-width: 164px;
+      padding: 6px 10px;
+    }
+  }
+  .btn-icon {
+    color: var(--action);
+  }
+  h2 {
+    font: calc(var(--fz) + 2px) var(--osc-bold);
+    margin: 0;
+  }
+  h3 {
+    font-size: calc(var(--fz) - 4px);
+    text-transform: uppercase;
+    color: var(--grey-black);
+    margin: 0 0 8px;
+    font: var(--font);
+    font-weight: 500;
+  }
+}

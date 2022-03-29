@@ -1,0 +1,42 @@
+.header-right-menu {
+  display: flex;
+  align-items: center;
+  li.active {
+    background: var(--r-premium);
+    border-radius: 4px 4px 0 0;
+    .btn-icon {
+      color: var(--white);
+    }
+    .heading-menu {
+      display: block;
+    }
+  }
+  > li:not(.user-settings) {
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    margin: 0 5px 0 0;
+    position: relative;
+    button {
+      margin: auto;
+    }
+  }
+  li.user-settings {
+    position: relative;
+    display: flex;
+    align-items: center;
+    .menu-link {
+      &:before {
+        content: "";
+        width: 14px;
+        height: 14px;
+        background: var(--danger);
+        border-radius: 50%;
+        margin: 0 10px 0 0;
+      }
+    }
+    &.reg .menu-link:before {
+      background: var(--ok);
+    }
+  }
+}

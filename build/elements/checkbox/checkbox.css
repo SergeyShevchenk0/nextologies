@@ -1,0 +1,15 @@
+.checkbox-holder { position: relative; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0 0 0 24px; }
+
+.checkbox { width: 18px; height: 18px; opacity: 0 !important; position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); margin: 0; z-index: 1; cursor: pointer; }
+
+.checkbox + label:before, .checkbox + label:after { display: none; position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); content: ""; }
+
+.checkbox + label:before { width: 18px; height: 18px; border: 2px solid var(--grey-dark); -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 2px; display: block; left: 0; }
+
+.checkbox + label:after { margin: -7px 0 0; left: 5px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); height: 10px; width: 5px; border-bottom: 2px solid var(--white); border-right: 2px solid var(--white); }
+
+.checkbox:checked + label:before { border-color: var(--action); background: var(--action); }
+
+.checkbox:checked + label:after { display: block; }
+
+/*# sourceMappingURL=../../../maps/elements/checkbox/checkbox.css.map */

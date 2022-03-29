@@ -1,0 +1,111 @@
+#header {
+  background: var(--white);
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--grey-light);
+  position: sticky;
+  position: -webkit-sticky;
+  transform: translate3d(0,0,0);
+  z-index: 11;
+  top: 0;
+  @media (max-width: 1200px /*--q-xl*/) {
+    flex-wrap: wrap;
+  }
+  .logo {
+    display: inline-block;
+    margin: -8px 0 0;
+    a {
+      display: block;
+    }
+    img {
+      width: 197px;
+      vertical-align: bottom;
+    }
+    svg {
+      height: 40px;
+    }
+  }
+  
+}
+
+.heading-menu {
+  display: none;
+  position: absolute;
+  background: var(--accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 6px;
+  top: 100%;
+  right: 0;
+  z-index: 11;
+  width: 140px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: calc(var(--fz) - 2px);
+  li.time-zones {
+    color: var(--white);
+    background: var(--grey-black);
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 4px;
+    .btn-icon {
+      margin: 0 !important;
+    }
+  }
+  li:not(:last-child) {
+    margin: 0 0 4px;
+  }
+  a {
+    color: var(--white);
+  }
+}
+
+.menu-link {
+  display: block;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 6px 6px 6px 16px;
+  line-height: 28px;
+  color: var(--grey-black);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  z-index: 11;
+  @media (max-width: 1400px /*--q-xxl*/) {
+    padding: 6px 4px 6px 14px;
+  }
+  .btn-icon {
+    margin: 0 0 0 10px;
+  }
+  &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: var(--r-premium) transparent transparent transparent;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin: 0 0 0 -6px;
+    display: none;
+  }
+  .active > &,
+  &:hover {
+    background: var(--r-premium);
+    border-radius: 4px 4px 0 0;
+    color: var(--white);
+    text-decoration: none;
+    &:after {
+      display: block;
+    }
+    .btn-icon {
+      color: #ffffff !important;
+    }
+  }
+}

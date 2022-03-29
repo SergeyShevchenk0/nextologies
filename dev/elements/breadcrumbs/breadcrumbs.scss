@@ -1,0 +1,31 @@
+.breadcrumbs {
+  text-align: center;
+  font-size: 0;
+  margin: 16px 0 0;
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    font-size: calc(var(--fz) - 4px);
+    margin: 0 2px;
+    color: var(--black);
+    a {
+      background: var(--white);
+      border: 1px solid var(--pale-str);
+      color: var(--black);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      &:hover {
+      }
+    }
+    &.active a {
+      background: var(--b-gblue);
+      border-color: var(--b-gblue);
+    }
+  }
+}

@@ -1,0 +1,7 @@
+select { -webkit-appearance: none; -moz-appearance: none; appearance: none; padding-right: 26px !important; cursor: pointer; background-image: url("data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjkxNjcgOC41OTAwOUwxMi4zMjY3IDEzLjE3MDFMNy43MzY2NiA4LjU5MDA5TDYuMzI2NjYgMTAuMDAwMUwxMi4zMjY3IDE2LjAwMDFMMTguMzI2NyAxMC4wMDAxTDE2LjkxNjcgOC41OTAwOVoiIGZpbGw9IiM5MTk2OTkiLz4KPC9zdmc+Cg==") !important; background-position: 98% 50% !important; background-repeat: no-repeat !important; }
+
+select::-ms-expand { display: none !important; }
+
+select::-ms-expand { display: none; }
+
+/*# sourceMappingURL=../../../maps/elements/select/select.css.map */

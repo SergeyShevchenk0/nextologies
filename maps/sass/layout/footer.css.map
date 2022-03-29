@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/layout/footer.scss"],"names":[],"mappings":"AAAA,UACE,cAAa,CACb,2BAA0B,CAC1B,uBAAsB,EAIvB;;AAPD,YAKI,UAAS,EACV","file":"../../../dev/sass/layout/footer.css","sourcesContent":["#footer {\n  padding: 16px;\n  background: var(--blacked);\n  color: var(--pale-str);\n  p {\n    margin: 0;\n  }\n}"]}

@@ -1,0 +1,46 @@
+.log-list {
+  font-size: calc(var(--fz) - 4px);
+  > li {
+    margin: 0 0 12px;
+  }
+  .date {
+    font-weight: 300;
+    display: block;
+    font-style: normal;
+  }
+  .tags {
+    text-align: left;
+    color: var(--accent);
+    li {
+      margin: 0 5px 0 0;
+      display: inline-block;
+    }
+    a {
+      color: var(--accent);
+    }
+  }
+  p {
+    margin: 0;
+  }
+  .log-type {
+    display: inline-block;
+    border-radius: 9px;
+    padding: 4px 8px;
+    font-size: calc(var(--fz) - 6px);
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #eef5ff;
+    &.event {
+      color: var(--grey-black);
+    }
+    &.app {
+      color: var(--action);
+    }
+    &.operation {
+      color: var(--ok);
+    }
+    &.monitor {
+      color: var(--caution);
+    }
+  }
+}

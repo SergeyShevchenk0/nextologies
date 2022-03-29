@@ -1,0 +1,41 @@
+.card-filter-form {
+  display: flex;
+  padding: 4px 16px 8px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .input-holder {
+    margin: 0 0 16px;
+  }
+  @media (max-width: 1400px /*--q-xxl*/) {
+    .input-holder {
+      width: 160px;
+    }
+    .input {
+      width: 100%;
+      min-width: 100%;
+    }
+  }
+  @media (max-width: 1200px /*--q-xl*/) {
+    justify-content: flex-start;
+    .input-holder {
+      width: 172px;
+      margin: 0 16px 16px 0;
+    }
+    .buttons-holder .btn {
+      margin: 0 16px 16px 0 0;
+    }
+  }
+  @media (max-width: 992px /*--q-l*/) {
+    justify-content: space-between;
+    .input-holder {
+      width: 220px;
+      margin: 0 0 16px 0;
+    }
+  }
+  @media (max-width: 768px /*--q-m*/) {
+    .input-holder {
+      width: 155px;
+    }
+  }
+}

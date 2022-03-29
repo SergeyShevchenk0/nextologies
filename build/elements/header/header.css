@@ -1,0 +1,37 @@
+#header { background: var(--white); padding: 16px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; border-bottom: 1px solid var(--grey-light); position: sticky; position: -webkit-sticky; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); z-index: 11; top: 0; }
+
+@media (max-width: 1200px) { #header { -ms-flex-wrap: wrap; flex-wrap: wrap; } }
+
+#header .logo { display: inline-block; margin: -8px 0 0; }
+
+#header .logo a { display: block; }
+
+#header .logo img { width: 197px; vertical-align: bottom; }
+
+#header .logo svg { height: 40px; }
+
+.heading-menu { display: none; position: absolute; background: var(--accent); -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); padding: 6px; top: 100%; right: 0; z-index: 11; width: 140px; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: left; font-size: calc(var(--fz) - 2px); }
+
+.heading-menu li.time-zones { color: var(--white); background: var(--grey-black); -webkit-box-align: center; -ms-flex-align: center; align-items: center; display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 4px; }
+
+.heading-menu li.time-zones .btn-icon { margin: 0 !important; }
+
+.heading-menu li:not(:last-child) { margin: 0 0 4px; }
+
+.heading-menu a { color: var(--white); }
+
+.menu-link { display: block; height: 40px; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 6px 6px 6px 16px; line-height: 28px; color: var(--grey-black); position: relative; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative; z-index: 11; }
+
+@media (max-width: 1400px) { .menu-link { padding: 6px 4px 6px 14px; } }
+
+.menu-link .btn-icon { margin: 0 0 0 10px; }
+
+.menu-link:after { content: ""; width: 0; height: 0; border-style: solid; border-width: 6px 6px 0 6px; border-color: var(--r-premium) transparent transparent transparent; position: absolute; left: 50%; top: 100%; margin: 0 0 0 -6px; display: none; }
+
+.active > .menu-link, .menu-link:hover { background: var(--r-premium); border-radius: 4px 4px 0 0; color: var(--white); text-decoration: none; }
+
+.active > .menu-link:after, .menu-link:hover:after { display: block; }
+
+.active > .menu-link .btn-icon, .menu-link:hover .btn-icon { color: #ffffff !important; }
+
+/*# sourceMappingURL=../../../maps/elements/header/header.css.map */

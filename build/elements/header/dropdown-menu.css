@@ -1,0 +1,42 @@
+/* .checkbox */
+@import url(checkbox.css);
+/* /.checkbox */
+.dropdown-menu { padding: 16px 60px 16px 16px; -webkit-box-sizing: border-box; box-sizing: border-box; width: 100%; background: var(--accent); position: absolute; left: 0; top: 100%; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); color: var(--white); font-size: calc(var(--fz) - 3px); -webkit-columns: 4; -moz-columns: 4; columns: 4; z-index: 10; }
+
+@media (max-width: 768px) { .dropdown-menu { -webkit-columns: 3; -moz-columns: 3; columns: 3; } }
+
+.dropdown-menu .checkbox-holder { margin: 0 0 8px; padding-left: 18px; }
+
+.dropdown-menu .check-box { width: 150px; margin: 0 24px 0 0; -webkit-column-break-inside: avoid; page-break-inside: avoid; -moz-column-break-inside: avoid; break-inside: avoid; }
+
+.dropdown-menu .check-box .checkbox-holder { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: baseline; -ms-flex-pack: baseline; justify-content: baseline; margin: 0 0 8px; padding-left: 18px; width: 100%; }
+
+.dropdown-menu .check-box .checkbox-holder:first-child { font-weight: bold; font-size: var(--fz); }
+
+.dropdown-menu .checkbox + label:before { border-color: var(--white) !important; width: 12px; height: 12px; background: transparent; }
+
+.dropdown-menu .checkbox + label:after { border-color: #dadada; }
+
+.dropdown-menu .checkbox:checked + label:before { background: var(--white); }
+
+.dropdown-menu .checkbox:checked + label:after { margin-top: -6px; left: 4px; width: 4px; height: 8px; border-width: 1px; border-color: var(--accent); }
+
+#dropdown-config { opacity: 0; z-index: 1; cursor: pointer; padding: 0; }
+
+#dropdown-config, #dropdown-config + label { position: absolute; top: 24px; right: 24px; width: 24px; height: 24px; }
+
+#dropdown-config + label img:first-child { display: block; }
+
+#dropdown-config + label img:last-child { display: none; }
+
+#dropdown-config:checked + label img:first-child { display: none; }
+
+#dropdown-config:checked + label img:last-child { display: block; }
+
+#dropdown-config:checked ~ ul .checkbox-holder { padding: 0; }
+
+#dropdown-config:checked ~ ul .checkbox { display: block; }
+
+#dropdown-config:checked ~ ul .checkbox + label:before, #dropdown-config:checked ~ ul .checkbox + label:after { display: none; }
+
+/*# sourceMappingURL=../../../maps/elements/header/dropdown-menu.css.map */

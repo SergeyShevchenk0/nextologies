@@ -1,0 +1,65 @@
+<!-- .card-filter-form -->
+<style>
+  @import url("./elements/card-filter-form/card-filter-form.css");
+</style>
+<form class="card-filter-form" action="#">
+  @@include('../input-holder/input-text.html')
+  @@include('../input-holder/input-select.html')
+
+  <!-- .input-holder -->
+  <div class="input-holder">
+    <select name="company" id="company" class="input">
+      <option selected disabled hidden>Nothing selected</option>
+      <option value="value1">value1</option>
+      <option value="value2">value2</option>
+      <option value="value3">value3</option>
+    </select>
+    <label for="company">Company</label>
+  </div>
+  <!-- /.input-holder -->
+
+  <!-- .input-holder -->
+  <div class="input-holder">
+    <select name="status" id="status" class="input">
+      <option selected disabled hidden>All statuses</option>
+      <option value="value1">value1</option>
+      <option value="value2">value2</option>
+      <option value="value3">value3</option>
+    </select>
+    <label for="status">Status</label>
+  </div>
+  <!-- /.input-holder -->
+
+  <!-- .input-holder -->
+  <div class="input-holder">
+    <select name="timecode" id="timecode" class="input">
+      <option selected disabled hidden>Nothing selected</option>
+      <option value="value1">value1</option>
+      <option value="value2">value2</option>
+      <option value="value3">value3</option>
+    </select>
+    <label for="timecode">Timecode</label>
+  </div>
+  <!-- /.input-holder -->
+
+  <!-- .input-holder -->
+  <div class="input-holder">
+    <select name="items-per-page" id="items-per-page" class="input">
+      <option value="50" selected>50</option>
+      <option value="30">30</option>
+      <option value="20">20</option>
+    </select>
+    <label for="items-per-page">Items per page</label>
+  </div>
+  <!-- /.input-holder -->
+
+  <!-- .buttons-holder -->
+  <div class="buttons-holder">
+    @@include('../btn/btn.html')
+    <button class="btn">
+      <img src="images/icons/icon-filter.svg" alt="" /> Filter
+    </button>
+    <button class="btn btn-gray">Reset</button>
+  </div>
+</form>
+<!-- /.card-filter-form -->

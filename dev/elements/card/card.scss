@@ -1,0 +1,323 @@
+.card {
+  box-sizing: border-box;
+  padding: 2px 4px 24px;
+  border-radius: 8px;
+  margin: 0 0 8px;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  background: #eef5ff;
+  p {
+    margin: 0;
+  }
+  .cards-table-grid & {
+    padding: 8px 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .grid2 img {
+    display: block;
+    width: 56px;
+  }
+  .card-info {
+    margin: 0 0 8px;
+    .hidden {
+      padding: 8px 0 0;
+      transition: var(--transition-ease);
+      display: none;
+      .img-holder {
+        position: relative;
+        padding-bottom: 56.25%;
+        picture,
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+      }
+    }
+    .card-info-holder {
+      position: relative;
+      min-height: 24px;
+      box-sizing: border-box;
+      padding: 0 30px 0 0;
+      font: calc(var(--fz) - 2px) var(--osc-light);
+      h3 {
+        font-size: var(--fz);
+        color: var(--r-premium);
+        margin-bottom: 2px;
+      }
+      p {
+        margin: 0;
+      }
+      .btn-icon {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    &.active {
+      .hidden {
+        display: block;
+      }
+      .btn-icon svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .checkbox-holder {
+    height: 24px;
+    display: inline-block;
+    margin: 0 0 8px;
+  }
+  .card-status {
+    color: #fff;
+    border-radius: 2px;
+    font-size: 8px;
+    text-align: center;
+    padding: 4px;
+    &.active {
+      background-color: var(--ok);
+    }
+    &.error {
+      background-color: var(--danger);
+    }
+    &.stopped {
+      background-color: var(--caution);
+      color: var(--grey-black);
+    }
+  }
+  .grid6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .action-btn {
+      margin: 0 0 0 8px;
+    }
+  }
+
+  table {
+    width: 100%;
+    font-weight: 600;
+    color: var(--black);
+    text-align: center;
+    font-size: 10px;
+    td {
+      width: 25%;
+    }
+    em {
+      font-style: normal;
+      font-weight: 300;
+    }
+  }
+  .grid-card {
+    display: grid;
+    grid-template-columns: 1fr 3.4fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row dense;
+    gap: 8px 8px;
+    grid-template-areas:
+      "grid1 grid3"
+      "grid2 grid3"
+      "grid4 grid5"
+      ". grid6"
+      "grid7 grid7";
+    .cards-table-grid & {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: flex-start;
+      > * {
+        margin: 0 8px;
+      }
+      .grid1 {
+        width: 24px;
+        text-align: center;
+      }
+      .checkbox-holder {
+        padding: 0;
+        margin: 0;
+        width: 20px;
+      }
+      .grid2 {
+        width: 56px;
+      }
+      .grid3 {
+        width: 320px;
+      }
+      .grid4 .btn-icon {
+        display: block;
+      }
+      .grid5 {
+        width: 235px;
+        grid-template-areas:
+          "grid1 grid2 grid6 grid4"
+          "grid5 grid3 grid7 grid8";
+        text-align: left;
+      }
+      .grid6 {
+        width: 105px;
+      }
+      .grid7 {
+        flex-grow: 2;
+        .card-info {
+          display: none;
+        }
+      }
+
+      @media (max-width: 992px /*--q-l*/) {
+        display: grid;
+        grid-template-columns: auto auto auto auto 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+          "grid1 grid2 grid3 grid3 grid3"
+          ". grid4 grid5 grid6 grid7";
+      }
+      .grid3 {
+        width: 380px;
+      }
+    }
+    @media (max-width: 768px /*--q-m*/) {
+      .grid5 {
+        width: auto !important;
+      }
+    }
+    .grid1 {
+      grid-area: grid1;
+      height: 24px;
+    }
+    .grid2 {
+      grid-area: grid2;
+    }
+    .grid3 {
+      grid-area: grid3;
+    }
+    .grid4 {
+      grid-area: grid4;
+    }
+    .grid5 {
+      grid-area: grid5;
+    }
+    .grid6 {
+      grid-area: grid6;
+    }
+    .grid7 {
+      grid-area: grid7;
+    }
+  }
+  .grid4 {
+    font-size: 0;
+    > * {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 3px 0 0;
+    }
+  }
+  .grid5 {
+    width: 100%;
+    font-weight: 600;
+    color: var(--black);
+    text-align: center;
+    font-size: 10px;
+
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px 2px;
+    grid-template-areas:
+      "grid1 grid2 grid3 grid4"
+      "grid5 grid6 grid7 grid8";
+    justify-content: stretch;
+    align-content: stretch;
+    justify-items: stretch;
+
+    em {
+      font-style: normal;
+      font-weight: 100;
+    }
+    .inner-grid1 {
+      grid-area: grid1;
+    }
+    .inner-grid2 {
+      grid-area: grid2;
+    }
+    .inner-grid3 {
+      grid-area: grid3;
+    }
+    .inner-grid4 {
+      grid-area: grid4;
+    }
+    .inner-grid5 {
+      grid-area: grid5;
+    }
+    .inner-grid6 {
+      grid-area: grid6;
+    }
+    .inner-grid7 {
+      grid-area: grid7;
+    }
+    .inner-grid8 {
+      grid-area: grid8;
+    }
+  }
+  .grid6 {
+    font-size: 10px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .cards-table-grid & {
+      justify-content: flex-end;
+    }
+    .card-action-list {
+      font-size: 0;
+      .cards-table-grid & {
+        display: none;
+      }
+      li {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 4px 0 0;
+      }
+    }
+    button {
+      color: var(--action);
+    }
+    .card-menu-holder {
+      position: relative;
+      height: 24px;
+      .card-menu {
+        font-size: 8px;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        width: 72px;
+        bottom: 100%;
+        background: var(--white);
+        box-sizing: border-box;
+        padding: 4px 4px 4px 8px;
+        display: none;
+        li {
+          margin: 5px 0;
+        }
+        a {
+          text-decoration: none;
+          color: var(--grey-black);
+        }
+        &.active {
+          display: block;
+        }
+      }
+    }
+  }
+}

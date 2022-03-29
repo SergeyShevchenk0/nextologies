@@ -1,0 +1,17 @@
+.card-filter-form { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 4px 16px 8px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.card-filter-form .input-holder { margin: 0 0 16px; }
+
+@media (max-width: 1400px) { .card-filter-form .input-holder { width: 160px; }
+  .card-filter-form .input { width: 100%; min-width: 100%; } }
+
+@media (max-width: 1200px) { .card-filter-form { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+  .card-filter-form .input-holder { width: 172px; margin: 0 16px 16px 0; }
+  .card-filter-form .buttons-holder .btn { margin: 0 16px 16px 0 0; } }
+
+@media (max-width: 992px) { .card-filter-form { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+  .card-filter-form .input-holder { width: 220px; margin: 0 0 16px 0; } }
+
+@media (max-width: 768px) { .card-filter-form .input-holder { width: 155px; } }
+
+/*# sourceMappingURL=../../../maps/elements/card-filter-form/card-filter-form.css.map */
