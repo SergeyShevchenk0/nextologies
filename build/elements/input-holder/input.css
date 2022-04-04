@@ -4,7 +4,7 @@
 
 .input[disabled] + label { opacity: 0.75; pointer-events: none; }
 
-.card-filter .input { min-width: 200px; }
+.card-filter-form .input { min-width: 100%; }
 
 .input::-webkit-input-placeholder { color: var(--grey-dark); font-size: var(--fz); }
 

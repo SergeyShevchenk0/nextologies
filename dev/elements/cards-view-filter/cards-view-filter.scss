@@ -28,10 +28,15 @@
 
   .card-actions-holder {
     font-size: 0;
+    display: flex;
     .btn {
+      flex-shrink: 0;
       display: inline-flex;
       align-items: center;
       margin: 0 6px 0 0;
+    }
+    select.input {
+      width: 220px;
     }
     > * {
       display: inline-block;

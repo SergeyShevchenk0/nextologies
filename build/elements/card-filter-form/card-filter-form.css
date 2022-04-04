@@ -1,6 +1,6 @@
 .card-filter-form { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 4px 16px 8px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
-.card-filter-form .input-holder { margin: 0 0 16px; }
+.card-filter-form .input-holder { width: 200px; margin: 0 0 16px; }
 
 @media (max-width: 1400px) { .card-filter-form .input-holder { width: 160px; }
   .card-filter-form .input { width: 100%; min-width: 100%; } }

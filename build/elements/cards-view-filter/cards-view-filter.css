@@ -4,9 +4,11 @@
 
 .cards-view-filter .btn-filter { display: none; }
 
-.cards-view-filter .card-actions-holder { font-size: 0; }
+.cards-view-filter .card-actions-holder { font-size: 0; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.cards-view-filter .card-actions-holder .btn { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 0 6px 0 0; }
+.cards-view-filter .card-actions-holder .btn { -ms-flex-negative: 0; flex-shrink: 0; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 0 6px 0 0; }
+
+.cards-view-filter .card-actions-holder select.input { width: 220px; }
 
 .cards-view-filter .card-actions-holder > * { display: inline-block; }
 

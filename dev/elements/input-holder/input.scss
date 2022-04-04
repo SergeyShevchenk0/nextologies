@@ -19,8 +19,8 @@
       pointer-events: none;
     }
   }
-  .card-filter & {
-    min-width: 200px;
+  .card-filter-form & {
+    min-width: 100%;
   }
   &::placeholder {
     color: var(--grey-dark);
