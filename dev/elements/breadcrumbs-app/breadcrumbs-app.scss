@@ -1,0 +1,34 @@
+.breadcrumbs-app {
+  font-size: 0;
+  margin: 0 0 8px;
+  > li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: calc(var(--fz) - 1px);
+    line-height: calc(var(--fz) + 4px);
+    margin: 0 0 8px;
+    &::after {
+      content: "/";
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 8px;
+    }
+    &:last-child:after {
+      display: none;
+    }
+    a {
+      color: var(--grey-black);
+      display: inline-block;
+      vertical-align: middle;
+      background: var(--pale-str);
+      padding: 5px 8px;
+      border-radius: 14px;
+      box-sizing: border-box;
+      height: 28px;
+      &:hover {
+        text-decoration: none;
+        background: var(--grey-light);
+      }
+    }
+  }
+}

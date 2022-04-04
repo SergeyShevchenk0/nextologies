@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Nextologies</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow" />
+    <!--[if IE
+      ]><meta http-equiv="X-UA-Compatible" content="IE = edge"
+    /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- favicon add     -->
+    <link
+      rel="apple-touch-icon"
+      sizes="160x160"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <!-- /favicon add     -->
+
+    <!-- preconnect for open sans condensed font -->
+    <link
+      rel="preload"
+      href="fonts/OpenSansCondensed-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/OpenSansCondensed-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/OpenSansCondensed-LightItalic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <!-- /preconnect for open sans condensed font -->
+
+    <!-- add open sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- /add open sans font -->
+
+    <!-- add stylesheets -->
+    <link
+      rel="stylesheet preload prefetch"
+      type="text/css"
+      href="sass/main.css"
+      as="style"
+      crossorigin="anonymous"
+    />
+    <!-- /add stylesheets -->
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <!-- #header -->
+<style>
+  @import url("./elements/header/header.css");
+</style>
+<header id="header">
+  <h1 class="logo">
+    <a href="" aria-label="logo-nextologies">
+      <svg
+        width="197"
+        height="40"
+        viewBox="0 0 197 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 40.0105V19.9397H4.15652L12.8852 33.3202V19.9397H16.8339V40.0105H12.5388L4.01797 26.8923V40.0105H0Z"
+          fill="black"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M18.0811 40.0105V19.9397H33.8758V23.3504H22.3761V27.8106H33.0445V31.1557H22.3761V36.6654H34.2222V40.0105H18.0811Z"
+          fill="black"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M69.4833 40.0105V23.3504H63.1792V19.9397H80.0824V23.3504H73.7783V40.0105H69.4833Z"
+          fill="black"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M146.518 32.6643V29.2536H155.731V37.2557C154.831 38.1084 153.514 38.8299 151.852 39.4202C150.12 40.0105 148.388 40.3385 146.656 40.3385C144.439 40.3385 142.5 39.8793 140.837 39.0266C139.174 38.174 137.927 36.8621 137.096 35.2224C136.265 33.5826 135.849 31.8116 135.849 29.8439C135.849 27.745 136.334 25.9085 137.235 24.2687C138.135 22.6289 139.521 21.3827 141.322 20.53C142.707 19.8741 144.37 19.5461 146.379 19.5461C149.011 19.5461 151.09 20.0709 152.544 21.1203C153.999 22.1698 154.969 23.6128 155.385 25.4493L151.159 26.1708C150.882 25.187 150.328 24.3999 149.496 23.8096C148.665 23.2192 147.626 22.9569 146.379 22.9569C144.509 22.9569 142.984 23.5472 141.876 24.6622C140.768 25.7773 140.213 27.4826 140.213 29.6471C140.213 32.0084 140.768 33.845 141.876 35.0256C142.984 36.2062 144.439 36.7966 146.31 36.7966C147.21 36.7966 148.111 36.5998 149.011 36.2718C149.912 35.9439 150.674 35.5503 151.367 35.0912V32.5331H146.518V32.6643Z"
+          fill="#FAA74A"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M100.172 40.0104V20.0708H104.467V36.6653H115.136V40.0104H100.172Z"
+          fill="#FAA74A"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M114.651 30.1063C114.651 28.073 114.997 26.3676 115.621 24.9246C116.106 23.8751 116.729 22.9569 117.63 22.1698C118.461 21.3827 119.362 20.7268 120.401 20.3332C121.717 19.8085 123.241 19.5461 124.973 19.5461C128.09 19.5461 130.584 20.4644 132.455 22.301C134.325 24.1375 135.295 26.6956 135.295 29.9751C135.295 33.2546 134.394 35.7471 132.524 37.5836C130.653 39.4202 128.16 40.3385 125.042 40.3385C121.856 40.3385 119.362 39.4202 117.491 37.5836C115.621 35.8127 114.651 33.3202 114.651 30.1063ZM119.085 29.9751C119.085 32.2708 119.639 33.9761 120.747 35.1568C121.856 36.3374 123.241 36.9277 124.973 36.9277C126.705 36.9277 128.09 36.3374 129.199 35.1568C130.307 33.9761 130.861 32.2708 130.861 29.9095C130.861 27.6138 130.307 25.9085 129.268 24.7278C128.229 23.6128 126.774 23.0225 125.042 23.0225C123.241 23.0225 121.856 23.6128 120.747 24.7278C119.639 25.9085 119.085 27.6138 119.085 29.9751Z"
+          fill="#FAA74A"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M78.7661 30.1063C78.7661 28.073 79.1125 26.3676 79.736 24.9246C80.2209 23.8751 80.8444 22.9569 81.745 22.1698C82.5763 21.3827 83.4768 20.7268 84.516 20.3332C85.8322 19.8085 87.3563 19.5461 89.0881 19.5461C92.2055 19.5461 94.6994 20.4644 96.5699 22.301C98.4403 24.1375 99.4101 26.6956 99.4101 29.9751C99.4101 33.2546 98.5096 35.7471 96.6391 37.5836C94.7687 39.4202 92.2748 40.3385 89.1574 40.3385C85.9707 40.3385 83.4768 39.4202 81.6064 37.5836C79.736 35.8127 78.7661 33.3202 78.7661 30.1063ZM83.1997 29.9751C83.1997 32.2708 83.7539 33.9761 84.8623 35.1568C85.9707 36.3374 87.3563 36.9277 89.0881 36.9277C90.82 36.9277 92.2055 36.3374 93.3139 35.1568C94.4223 33.9761 94.9765 32.2708 94.9765 29.9095C94.9765 27.6138 94.4223 25.9085 93.3832 24.7278C92.3441 23.6128 90.8893 23.0225 89.1574 23.0225C87.3562 23.0225 85.9707 23.6128 84.8623 24.7278C83.7539 25.9085 83.1997 27.6138 83.1997 29.9751Z"
+          fill="#FAA74A"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M162.797 40.0105V19.9397H178.592V23.3504H167.092V27.8106H177.761V31.1557H167.092V36.6654H179.008V40.0105H162.797Z"
+          fill="#FAA74A"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M179.077 33.5171L183.234 33.1235C183.511 34.4354 183.996 35.4192 184.758 36.0751C185.52 36.6655 186.559 36.9934 187.875 36.9934C189.261 36.9934 190.3 36.731 190.993 36.1407C191.685 35.616 192.032 34.9601 192.032 34.173C192.032 33.7139 191.893 33.3203 191.616 32.9924C191.339 32.6644 190.785 32.3365 190.092 32.1397C189.607 31.9429 188.429 31.6805 186.628 31.287C184.342 30.7623 182.749 30.1064 181.779 29.3193C180.463 28.2042 179.839 26.8924 179.839 25.2526C179.839 24.2032 180.116 23.2849 180.74 22.3666C181.363 21.4484 182.264 20.7925 183.372 20.3333C184.55 19.8742 185.935 19.6118 187.529 19.6118C190.23 19.6118 192.17 20.1365 193.556 21.2516C194.872 22.3666 195.634 23.8096 195.703 25.7118L191.408 25.9085C191.2 24.8591 190.854 24.1376 190.23 23.6785C189.607 23.2193 188.706 23.0225 187.529 23.0225C186.282 23.0225 185.312 23.2849 184.619 23.744C184.134 24.072 183.926 24.4655 183.926 24.9903C183.926 25.4494 184.134 25.843 184.55 26.2365C185.104 26.6956 186.42 27.0892 188.499 27.5483C190.577 28.0075 192.101 28.4666 193.14 28.9913C194.11 29.516 194.941 30.172 195.495 31.0246C196.05 31.8773 196.327 32.9268 196.327 34.2386C196.327 35.4192 195.98 36.4687 195.288 37.4525C194.595 38.4364 193.625 39.2235 192.447 39.6826C191.2 40.1418 189.676 40.4041 187.806 40.4041C185.104 40.4041 183.026 39.8138 181.64 38.6332C180.255 37.4526 179.354 35.7472 179.077 33.5171Z"
+          fill="#FAA74A"
+        />
+        <path
+          d="M161.412 19.9397H157.117V40.0761H161.412V19.9397Z"
+          fill="#FAA74A"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M34.5684 40.0105L45.3061 29.516L35.6075 19.9397H43.02L49.324 26.3676L55.4895 19.9397H62.902L53.0649 29.7127L63.8719 40.0105H56.1823L49.1855 33.0579L42.1887 40.0105H34.5684Z"
+          fill="black"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M28.8877 6.29673L49.2547 23.6127L72.6005 0.787091L71.5614 0L49.2547 17.8407L29.8575 5.50964L28.8877 6.29673Z"
+          fill="#FAA74A"
+        />
+      </svg>
+    </a>
+  </h1>
+
+  <!-- .header-nav-holder -->
+<style>
+  @import url("./elements/header/header-nav-holder.css");
+</style>
+<div class="header-nav-holder">
+  <!-- #header-nav -->
+  <nav id="header-nav">
+    <ul>
+      <li>
+        <a class="menu-link" href=""
+          >Node
+          <span class="btn-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.9167 8.59009L12.3267 13.1701L7.73666 8.59009L6.32666 10.0001L12.3267 16.0001L18.3267 10.0001L16.9167 8.59009Z"
+                fill="currentColor"
+              />
+            </svg> </span
+        ></a>
+      </li>
+      <!-- add class '.active' to 'li' for '.dropdown-menu' -->
+      <li class="active">
+        <a class="menu-link" href=""
+          >Applications
+          <span class="btn-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.9167 8.59009L12.3267 13.1701L7.73666 8.59009L6.32666 10.0001L12.3267 16.0001L18.3267 10.0001L16.9167 8.59009Z"
+                fill="currentColor"
+              />
+            </svg> </span
+        ></a>
+        <!-- .dropdown-menu -->
+        <!-- .dropdown-menu -->
+<style>
+  @import url("./elements/header/dropdown-menu.css");
+  @import url("./elements/checkbox/checkbox.css");
+</style>
+<div style="display: none;" class="dropdown-menu">
+  <input type="checkbox" name="dropdown-config" id="dropdown-config" />
+  <label for="dropdown-settings"
+    ><img src="images/icons/icon-settings.svg" alt="" /><img
+      src="images/icons/icon-done.svg"
+      alt=""
+  /></label>
+  <div class="check-box">
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+  </div>
+  <div class="check-box">
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+  </div>
+  <div class="check-box">
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+  </div>
+  <div class="check-box">
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+  </div>
+  <div class="check-box">
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+  </div>
+  <div class="check-box">
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+  </div>
+  <div class="check-box">
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+  </div>
+  <div class="check-box">
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+  </div>
+  <div class="check-box">
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+    <div class="checkbox-holder">
+  <input checked class="checkbox" type="checkbox" name="" id="" /><label for=""
+    >Some text</label
+  >
+</div>
+
+  </div>
+</div>
+<!-- /.dropdown-menu -->
+
+        <!-- /.dropdown-menu -->
+      </li>
+      <li>
+        <a class="menu-link" href=""
+          >Projects
+
+          <span class="btn-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.9167 8.59009L12.3267 13.1701L7.73666 8.59009L6.32666 10.0001L12.3267 16.0001L18.3267 10.0001L16.9167 8.59009Z"
+                fill="currentColor"
+              />
+            </svg> </span
+        ></a>
+      </li>
+      <li>
+        <a class="menu-link" href=""
+          >Playout
+          <span class="btn-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.9167 8.59009L12.3267 13.1701L7.73666 8.59009L6.32666 10.0001L12.3267 16.0001L18.3267 10.0001L16.9167 8.59009Z"
+                fill="currentColor"
+              />
+            </svg> </span
+        ></a>
+      </li>
+      <li>
+        <a class="menu-link" href=""
+          >Satellite
+          <span class="btn-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.9167 8.59009L12.3267 13.1701L7.73666 8.59009L6.32666 10.0001L12.3267 16.0001L18.3267 10.0001L16.9167 8.59009Z"
+                fill="currentColor"
+              />
+            </svg> </span
+        ></a>
+      </li>
+      <li>
+        <a class="menu-link" href=""
+          >Monitoring
+          <span class="btn-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.9167 8.59009L12.3267 13.1701L7.73666 8.59009L6.32666 10.0001L12.3267 16.0001L18.3267 10.0001L16.9167 8.59009Z"
+                fill="currentColor"
+              />
+            </svg> </span
+        ></a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /#header-nav -->
+
+  <div class="search-holder">
+    <input id="search-header" type="checkbox" class="activate-search" />
+    <label for="search-header">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16.9498 7.05025C17.3404 7.44078 17.3404 8.07394 16.9498 8.46447L13.4143 12L16.9498 15.5355C17.3404 15.9261 17.3404 16.5592 16.9498 16.9497C16.5593 17.3403 15.9261 17.3403 15.5356 16.9497L12.0001 13.4142L8.46455 16.9497C8.07402 17.3403 7.44086 17.3403 7.05033 16.9497C6.65981 16.5592 6.65981 15.9261 7.05033 15.5355L10.5859 12L7.05033 8.46447C6.65981 8.07394 6.65981 7.44078 7.05033 7.05025C7.44086 6.65973 8.07402 6.65973 8.46455 7.05025L12.0001 10.5858L15.5356 7.05025C15.9261 6.65973 16.5593 6.65973 16.9498 7.05025Z"
+          fill="#323232"
+        />
+      </svg>
+    </label>
+    <form action="#">
+      <style>
+        @import url("./elements/input-holder/input.css");
+      </style>
+      <input
+        class="search input"
+        type="text"
+        placeholder="Search"
+      />
+      <button type="submit" class="btn-icon btn-search">
+        <svg
+          width="25"
+          height="24"
+          viewBox="0 0 25 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.8267 13.5L19.3267 19"
+            stroke="#5E6366"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M9.82666 16C13.4165 16 16.3267 13.0899 16.3267 9.5C16.3267 5.91015 13.4165 3 9.82666 3C6.23681 3 3.32666 5.91015 3.32666 9.5C3.32666 13.0899 6.23681 16 9.82666 16ZM9.82666 14C12.3119 14 14.3267 11.9853 14.3267 9.5C14.3267 7.01472 12.3119 5 9.82666 5C7.34138 5 5.32666 7.01472 5.32666 9.5C5.32666 11.9853 7.34138 14 9.82666 14Z"
+            fill="#5E6366"
+          />
+        </svg>
+      </button>
+    </form>
+  </div>
+</div>
+<!-- /.header-nav-holder --> <!-- .header-right-menu -->
+<style>
+  @import url("./elements/header/header-right-menu.css");
+</style>
+<ul class="header-right-menu">
+  <!-- add class '.active' to 'li' for open '.heading-menu' -->
+  <li>
+    <button class="btn-icon">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM7 9C7 6.24 9.24 4 12 4C14.76 4 17 6.24 17 9C17 11.88 14.12 16.19 12 18.88C9.92 16.21 7 11.85 7 9Z"
+          fill="currentColor"
+        />
+        <path
+          d="M14.5 9.5C14.5 10.8807 13.3807 12 12 12C10.6193 12 9.5 10.8807 9.5 9.5C9.5 8.11929 10.6193 7 12 7C13.3807 7 14.5 8.11929 14.5 9.5Z"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <ul class="heading-menu">
+      <li>
+        <a href="">Item 1</a>
+      </li>
+      <li>
+        <a href="">Item 2</a>
+      </li>
+      <li>
+        <a href="">Item 3</a>
+      </li>
+    </ul>
+  </li>
+  <!-- add class '.active' to 'li' for open '.heading-menu' -->
+  <li>
+    <button class="btn-icon">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z"
+          fill="currentColor"
+        />
+        <path
+          d="M11.5 6V12.5L15.5 14.5"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <ul class="heading-menu">
+      <li class="time-zones">
+        Time zones
+        <button class="btn-icon">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 17.25V21H6.75L17.81 9.94L14.06 6.19L3 17.25ZM5.92 19H5V18.08L14.06 9.02L14.98 9.94L5.92 19ZM20.71 5.63L18.37 3.29C18.17 3.09 17.92 3 17.66 3C17.4 3 17.15 3.1 16.96 3.29L15.13 5.12L18.88 8.87L20.71 7.04C21.1 6.65 21.1 6.02 20.71 5.63Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <a href="">Item 1</a>
+      </li>
+      <li>
+        <a href="">Item 2</a>
+      </li>
+      <li>
+        <a href="">Item 3</a>
+      </li>
+    </ul>
+  </li>
+  <!-- add class '.active' to 'li' for open '.heading-menu' -->
+  <li class="user-settings reg">
+    <a class="menu-link" href="">
+      StevenQ
+      <div class="btn-icon">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.9167 8.59009L12.3267 13.1701L7.73666 8.59009L6.32666 10.0001L12.3267 16.0001L18.3267 10.0001L16.9167 8.59009Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </a>
+    <ul class="heading-menu">
+      <li>
+        <a href="">Users list</a>
+      </li>
+      <li>
+        <a href="">Companies</a>
+      </li>
+      <li>
+        <a href="">AP clients</a>
+      </li>
+      <li>
+        <button id="theme-toggle">сменить тему</button>
+      </li>
+    </ul>
+  </li>
+</ul>
+<!-- /.header-right-menu -->
+
+</header>
+<!-- /#header -->
+
+
+      <!-- #main -->
+      <main id="main">
+        <!-- .breadcrumbs-app -->
+<style>
+  @import url("./elements/breadcrumbs-app/breadcrumbs-app.css");
+</style>
+<ul class="breadcrumbs-app">
+  <li>
+    <a href="#">SDI to IP Encoders</a>
+  </li>
+  <li>
+    <a href="#">comcast-02-u14</a>
+  </li>
+  <li>ThisTV_SD</li>
+</ul>
+<!-- /.breadcrumbs-app -->
+
+        <article class="app-holder">
+          <header class="app-heading">
+            <h1>Edit 1+1 application</h1>
+            <style>
+              @import url("./elements/btn/btn.css");
+            </style>
+            <button class="btn btn-border">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 12C19 12.5523 18.5523 13 18 13H13V18C13 18.5523 12.5523 19 12 19V19C11.4477 19 11 18.5523 11 18V13H6C5.44772 13 5 12.5523 5 12V12C5 11.4477 5.44772 11 6 11H11V6C11 5.44772 11.4477 5 12 5V5C12.5523 5 13 5.44772 13 6V11H18C18.5523 11 19 11.4477 19 12V12Z"
+                  fill="currentColor"
+                />
+              </svg>
+              Add new
+            </button>
+          </header>
+          <div class="app-frame">
+            <aside class="app-log">
+              <div class="app-log-header">
+                <picture>
+                  <source
+                    srcset="images/webp/img01-small.webp"
+                    type="image/webp"
+                  />
+                  <img src="images/img01-small.png" alt="Изображение" />
+                </picture>
+                <picture>
+                  <source srcset="images/webp/img-QOS.webp" type="image/webp" />
+                  <img src="images/img-QOS.png" alt="Изображение" />
+                </picture>
+                <span class="card-status active">Active</span>
+                <button class="btn-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.5 4.75C7.5 4.33579 7.83579 4 8.25 4C8.66421 4 9 4.33579 9 4.75V6H15V4.75C15 4.33579 15.3358 4 15.75 4C16.1642 4 16.5 4.33579 16.5 4.75V6H20C20.5523 6 21 6.44772 21 7V18C21 18.5523 20.5523 19 20 19H4C3.44772 19 3 18.5523 3 18V7C3 6.44772 3.44772 6 4 6H7.5V4.75ZM15 7.7V8.25C15 8.66421 15.3358 9 15.75 9C16.1642 9 16.5 8.66421 16.5 8.25V7.7H19.3V10H4.7V7.7H7.5V8.25C7.5 8.66421 7.83579 9 8.25 9C8.66421 9 9 8.66421 9 8.25V7.7H15ZM4.7 11.5V17.3H19.3V11.5H4.7Z"
+                      fill="#367BF5"
+                    />
+                  </svg>
+                </button>
+                <button class="btn-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19 5.5H5C4.72386 5.5 4.5 5.72386 4.5 6V8C4.5 8.27614 4.72386 8.5 5 8.5H19C19.2761 8.5 19.5 8.27614 19.5 8V6C19.5 5.72386 19.2761 5.5 19 5.5ZM5 4C3.89543 4 3 4.89543 3 6V8C3 9.10457 3.89543 10 5 10H19C20.1046 10 21 9.10457 21 8V6C21 4.89543 20.1046 4 19 4H5ZM8 7C8 7.55228 7.55228 8 7 8C6.44772 8 6 7.55228 6 7C6 6.44772 6.44772 6 7 6C7.55228 6 8 6.44772 8 7ZM15.5 6.5C15.2239 6.5 15 6.72386 15 7C15 7.27614 15.2239 7.5 15.5 7.5H17.5C17.7761 7.5 18 7.27614 18 7C18 6.72386 17.7761 6.5 17.5 6.5H15.5Z"
+                      fill="#367BF5"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19 10.5H5C4.72386 10.5 4.5 10.7239 4.5 11V13C4.5 13.2761 4.72386 13.5 5 13.5H19C19.2761 13.5 19.5 13.2761 19.5 13V11C19.5 10.7239 19.2761 10.5 19 10.5ZM5 9C3.89543 9 3 9.89543 3 11V13C3 14.1046 3.89543 15 5 15H19C20.1046 15 21 14.1046 21 13V11C21 9.89543 20.1046 9 19 9H5ZM8 12C8 12.5523 7.55228 13 7 13C6.44772 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11C7.55228 11 8 11.4477 8 12ZM15.5 11.5C15.2239 11.5 15 11.7239 15 12C15 12.2761 15.2239 12.5 15.5 12.5H17.5C17.7761 12.5 18 12.2761 18 12C18 11.7239 17.7761 11.5 17.5 11.5H15.5Z"
+                      fill="#367BF5"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19 15.5H5C4.72386 15.5 4.5 15.7239 4.5 16V18C4.5 18.2761 4.72386 18.5 5 18.5H19C19.2761 18.5 19.5 18.2761 19.5 18V16C19.5 15.7239 19.2761 15.5 19 15.5ZM5 14C3.89543 14 3 14.8954 3 16V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V16C21 14.8954 20.1046 14 19 14H5ZM8 17C8 17.5523 7.55228 18 7 18C6.44772 18 6 17.5523 6 17C6 16.4477 6.44772 16 7 16C7.55228 16 8 16.4477 8 17ZM15.5 16.5C15.2239 16.5 15 16.7239 15 17C15 17.2761 15.2239 17.5 15.5 17.5H17.5C17.7761 17.5 18 17.2761 18 17C18 16.7239 17.7761 16.5 17.5 16.5H15.5Z"
+                      fill="#367BF5"
+                    />
+                  </svg>
+                </button>
+                <div class="menu-holder">
+                  <button class="btn-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.5 17C13.5 16.1716 12.8284 15.5 12 15.5C11.1716 15.5 10.5 16.1716 10.5 17C10.5 17.8284 11.1716 18.5 12 18.5C12.8284 18.5 13.5 17.8284 13.5 17ZM13.5 12C13.5 11.1716 12.8284 10.5 12 10.5C11.1716 10.5 10.5 11.1716 10.5 12C10.5 12.8284 11.1716 13.5 12 13.5C12.8284 13.5 13.5 12.8284 13.5 12ZM12 5.5C12.8284 5.5 13.5 6.17157 13.5 7C13.5 7.82843 12.8284 8.5 12 8.5C11.1716 8.5 10.5 7.82843 10.5 7C10.5 6.17157 11.1716 5.5 12 5.5Z"
+                        fill="#367BF5"
+                      />
+                    </svg>
+                  </button>
+                  <!-- add class '.active' to '.drop-menu' for open menu -->
+                  <!-- .drop-menu -->
+<style>
+  @import url("./elements/drop-menu/drop-menu.css");
+</style>
+<ul class="drop-menu">
+  <li><a href="">History </a></li>
+  <li><a href="">Start/Restart </a></li>
+  <li><a href="">Stop </a></li>
+  <li><a href="">Edit</a></li>
+  <li><a href="">Migrate</a></li>
+  <li><a href="">Clone</a></li>
+  <li><a href="">Delete</a></li>
+  <li><a href="">Add To Monitoring</a></li>
+</ul>
+<!-- /.drop-menu -->
+                </div>
+              </div>
+              <ul class="grid-2rows speed-log">
+                <li><a href="#">239.0.0.4:1234</a></li>
+                <li class="speed-ok">
+                  <picture>
+                    <source
+                      srcset="images/webp/ico-graph01.webp"
+                      type="image/webp"
+                    />
+                    <img src="images/ico-graph01.png" alt="Изображение" />
+                  </picture>
+                  7 Mbps
+                </li>
+                <li><a href="#">239.0.0.4:1234</a></li>
+                <li class="speed-ok">
+                  <picture>
+                    <source
+                      srcset="images/webp/ico-graph02.webp"
+                      type="image/webp"
+                    />
+                    <img src="images/ico-graph02.png" alt="Изображение" />
+                  </picture>
+                  12 Mbps
+                </li>
+                <li><a href="#">239.0.0.4:1234</a></li>
+                <li class="speed-bad">
+                  <picture>
+                    <source
+                      srcset="images/webp/ico-graph03.webp"
+                      type="image/webp"
+                    />
+                    <img src="images/ico-graph03.png" alt="Изображение" />
+                  </picture>
+                  3.5 Mbps
+                </li>
+              </ul>
+              <ul class="grid-2rows parameters">
+                <li>Cpu/Governor mode</li>
+                <li>1.8% (powersave)</li>
+                <li>Load Average</li>
+                <li>1.49 (CPU cores: 32)</li>
+                <li>Memory</li>
+                <li>2.37 GB/31.33 GB</li>
+              </ul>
+              <style>
+                @import url("./elements/tabs/tabs.css");
+              </style>
+              <ul class="tabs">
+                <!-- add class '.active' to 'li' for active tab -->
+                <li class="active"><button>ENCODER LOG</button></li>
+                <li><button>DECODER LOG</button></li>
+              </ul>
+              <div class="tab-content">
+                <!-- .log-box -->
+<style>
+  @import url("./elements/log-box/log-box.css");
+</style>
+<div class="log-box">
+  <form class="search-form" action="#">
+    <style>
+      @import url("./elements/input-holder/input.css");
+    </style>
+    <input
+      class="search input"
+      type="text"
+      placeholder="Search"
+    />
+    <button type="submit" class="btn-icon btn-search">
+      <svg
+        width="25"
+        height="24"
+        viewBox="0 0 25 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.8267 13.5L19.3267 19"
+          stroke="#5E6366"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M9.82666 16C13.4165 16 16.3267 13.0899 16.3267 9.5C16.3267 5.91015 13.4165 3 9.82666 3C6.23681 3 3.32666 5.91015 3.32666 9.5C3.32666 13.0899 6.23681 16 9.82666 16ZM9.82666 14C12.3119 14 14.3267 11.9853 14.3267 9.5C14.3267 7.01472 12.3119 5 9.82666 5C7.34138 5 5.32666 7.01472 5.32666 9.5C5.32666 11.9853 7.34138 14 9.82666 14Z"
+          fill="#5E6366"
+        />
+      </svg>
+    </button>
+  </form>
+  <ul class="log-info-list">
+    <li>
+      <em class="log-time">Jan 5 07:35</em>
+      <p>Lorem ipsum dolor sit.</p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:33</em>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Cum, assumenda.
+      </p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:34</em>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:32</em>
+      <p>Lorem, ipsum dolor.</p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:31</em>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Esse perferendis totam odio!
+      </p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:30</em>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:35</em>
+      <p>Lorem ipsum dolor sit.</p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:33</em>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Cum, assumenda.
+      </p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:34</em>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:32</em>
+      <p>Lorem, ipsum dolor.</p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:31</em>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Esse perferendis totam odio!
+      </p>
+    </li>
+    <li>
+      <em class="log-time">Jan 5 07:30</em>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </li>
+  </ul>
+</div>
+<!-- /.log-box -->
+              </div>
+              <ul class="btn-list">
+                <li>
+                  <button class="btn-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.54 2.46143L8.50151 5.20176L12.7209 7.65443L12.6633 6.00194C16.1777 6.0886 19 8.96467 19 12.4999C19 16.0898 16.0899 18.9999 12.5 18.9999C8.91015 18.9999 6 16.0898 6 12.4999C6 11.9476 5.55228 11.4999 5 11.4999C4.44772 11.4999 4 11.9476 4 12.4999C4 17.1943 7.80558 20.9999 12.5 20.9999C17.1944 20.9999 21 17.1943 21 12.4999C21 7.83674 17.2449 4.0506 12.5936 4.00043L12.54 2.46143Z"
+                        fill="#367BF5"
+                      />
+                    </svg>
+                  </button>
+                </li>
+                <li>
+                  <button class="btn-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z"
+                        fill="#367BF5"
+                      />
+                      <mask id="path-2-inside-1_2085_30690" fill="white">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M16 8H8V16H16V8ZM14 10H10V14H14V10Z"
+                        />
+                      </mask>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M16 8H8V16H16V8ZM14 10H10V14H14V10Z"
+                        fill="#367BF5"
+                      />
+                      <path
+                        d="M8 8V7H7V8H8ZM16 8H17V7H16V8ZM8 16H7V17H8V16ZM16 16V17H17V16H16ZM10 10V9H9V10H10ZM14 10H15V9H14V10ZM10 14H9V15H10V14ZM14 14V15H15V14H14ZM8 9H16V7H8V9ZM9 16V8H7V16H9ZM16 15H8V17H16V15ZM15 8V16H17V8H15ZM10 11H14V9H10V11ZM11 14V10H9V14H11ZM14 13H10V15H14V13ZM13 10V14H15V10H13Z"
+                        fill="#367BF5"
+                        mask="url(#path-2-inside-1_2085_30690)"
+                      />
+                    </svg>
+                  </button>
+                </li>
+                <li class="item-right">
+                  <button class="btn-icon">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6 19C6 20.1 6.9 21 8 21H16C17.1 21 18 20.1 18 19V7H6V19ZM8 9H16V19H8V9ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z"
+                        fill="#EA3D2F"
+                      />
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+            </aside>
+            <div class="app-settings">
+              <button class="btn-icon btn-info">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11 7H13V9H11V7ZM11 11H13V17H11V11ZM12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z"
+                    fill="#919699"
+                  />
+                </svg>
+              </button>
+              <ul class="tabs">
+                <!-- add class '.active' to 'li' for active tab -->
+                <li class="active"><button>MAIN</button></li>
+                <li><button>VIDEO ENCODER</button></li>
+                <li><button>AUDIO ENCODER</button></li>
+                <li><button>MPEG-TS Muxer</button></li>
+                <li><button>RTP Muxer</button></li>
+                <li><button>Advanced</button></li>
+              </ul>
+              <div class="tab-content">
+                <form action="#">
+                  <style>
+                    @import url("./elements/select/select.css");
+                  </style>
+                  <!-- .input-holder (text) -->
+<style>
+  @import url("./elements/input-holder/input.css");
+</style>
+<div class="input-holder">
+  <input id="inputId" class="input" type="text" placeholder="placeholder text" />
+  <label for="inputId">Name</label>
+</div>
+<!-- /.input-holder (text) -->
+                  <!-- .input-holder (select) -->
+<style>
+  @import url("./elements/input-holder/input.css");
+</style>
+<div class="input-holder">
+  <select name="node" id="node" class="input">
+    <option selected disabled hidden>Nothing selected</option>
+    <option value="value1">value1</option>
+    <option value="value2">value2</option>
+    <option value="value3">value3</option>
+  </select>
+  <label for="node">Node</label>
+</div>
+<!-- /.input-holder (select) -->
+                  <!-- .input-holder (select) -->
+<style>
+  @import url("./elements/input-holder/input.css");
+</style>
+<div class="input-holder">
+  <select name="node" id="node" class="input">
+    <option selected disabled hidden>Nothing selected</option>
+    <option value="value1">value1</option>
+    <option value="value2">value2</option>
+    <option value="value3">value3</option>
+  </select>
+  <label for="node">Node</label>
+</div>
+<!-- /.input-holder (select) -->
+                  <!-- .input-holder (select) -->
+<style>
+  @import url("./elements/input-holder/input.css");
+</style>
+<div class="input-holder">
+  <select name="node" id="node" class="input">
+    <option selected disabled hidden>Nothing selected</option>
+    <option value="value1">value1</option>
+    <option value="value2">value2</option>
+    <option value="value3">value3</option>
+  </select>
+  <label for="node">Node</label>
+</div>
+<!-- /.input-holder (select) -->
+                  <div class="border-box">
+                    <!-- .input-holder (select) -->
+<style>
+  @import url("./elements/input-holder/input.css");
+</style>
+<div class="input-holder">
+  <select name="node" id="node" class="input">
+    <option selected disabled hidden>Nothing selected</option>
+    <option value="value1">value1</option>
+    <option value="value2">value2</option>
+    <option value="value3">value3</option>
+  </select>
+  <label for="node">Node</label>
+</div>
+<!-- /.input-holder (select) -->
+                    <div class="flex-holder">
+                      <input
+                        type="text"
+                        class="input w120 h32"
+                        placeholder="Output IP"
+                      />
+                      <input
+                        type="text"
+                        class="input w120 h32"
+                        placeholder="Output IP"
+                      />
+                      <select name="sel" id="sel" class="input h32">
+                        <option value="TTL">TTL</option>
+                        <option value="value2">value2</option>
+                        <option value="value3">value3</option>
+                      </select>
+                      <button class="btn-icon h32">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M17 12C17 12.5523 16.5523 13 16 13H13V16C13 16.5523 12.5523 17 12 17C11.4477 17 11 16.5523 11 16V13H8C7.44772 13 7 12.5523 7 12C7 11.4477 7.44772 11 8 11H11V8C11 7.44772 11.4477 7 12 7C12.5523 7 13 7.44772 13 8V11H16C16.5523 11 17 11.4477 17 12Z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="column-2">
+                    <!-- .input-holder (select) -->
+<style>
+  @import url("./elements/input-holder/input.css");
+</style>
+<div class="input-holder">
+  <select name="node" id="node" class="input">
+    <option selected disabled hidden>Nothing selected</option>
+    <option value="value1">value1</option>
+    <option value="value2">value2</option>
+    <option value="value3">value3</option>
+  </select>
+  <label for="node">Node</label>
+</div>
+<!-- /.input-holder (select) -->
+                    <!-- .input-holder (select) -->
+<style>
+  @import url("./elements/input-holder/input.css");
+</style>
+<div class="input-holder">
+  <select name="node" id="node" class="input">
+    <option selected disabled hidden>Nothing selected</option>
+    <option value="value1">value1</option>
+    <option value="value2">value2</option>
+    <option value="value3">value3</option>
+  </select>
+  <label for="node">Node</label>
+</div>
+<!-- /.input-holder (select) -->
+                    <!-- .input-holder (select) -->
+<style>
+  @import url("./elements/input-holder/input.css");
+</style>
+<div class="input-holder">
+  <select name="node" id="node" class="input">
+    <option selected disabled hidden>Nothing selected</option>
+    <option value="value1">value1</option>
+    <option value="value2">value2</option>
+    <option value="value3">value3</option>
+  </select>
+  <label for="node">Node</label>
+</div>
+<!-- /.input-holder (select) -->
+                    <!-- .input-holder (select) -->
+<style>
+  @import url("./elements/input-holder/input.css");
+</style>
+<div class="input-holder">
+  <select name="node" id="node" class="input">
+    <option selected disabled hidden>Nothing selected</option>
+    <option value="value1">value1</option>
+    <option value="value2">value2</option>
+    <option value="value3">value3</option>
+  </select>
+  <label for="node">Node</label>
+</div>
+<!-- /.input-holder (select) -->
+                  </div>
+                  <div class="btn-app-holder">
+                    <div class="btn-frame">
+                      <button class="btn">
+                        Save |
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M16.59 8.59009L12 13.1701L7.41 8.59009L6 10.0001L12 16.0001L18 10.0001L16.59 8.59009Z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                      </button>
+                      <!-- add class '.active' to '.drop-menu' for open menu -->
+                      <!-- .drop-menu -->
+<style>
+  @import url("./elements/drop-menu/drop-menu.css");
+</style>
+<ul class="drop-menu">
+  <li><a href="">History </a></li>
+  <li><a href="">Start/Restart </a></li>
+  <li><a href="">Stop </a></li>
+  <li><a href="">Edit</a></li>
+  <li><a href="">Migrate</a></li>
+  <li><a href="">Clone</a></li>
+  <li><a href="">Delete</a></li>
+  <li><a href="">Add To Monitoring</a></li>
+</ul>
+<!-- /.drop-menu -->
+                    </div>
+
+                    <button class="btn btn-border">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11 4C11 3.44772 11.4477 3 12 3H19C20.1 3 21 3.9 21 5V14C21 14.5523 20.5523 15 20 15C19.4477 15 19 14.5523 19 14V5H12C11.4477 5 11 4.55228 11 4Z"
+                          fill="currentColor"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M5.73333 7H15.2667C16.22 7 17 7.75 17 8.66667V20.3333C17 21.25 16.22 22 15.2667 22H5.73333C4.78 22 4 21.25 4 20.3333V8.66667C4 7.75 4.78 7 5.73333 7ZM15 20H6V9H15V20Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      Clone
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+      <!-- /#main -->
+
+      <!-- .notifications -->
+<style>
+  @import url("./elements/notifications/notifications.css");
+</style>
+<section class="notifications">
+  <header>
+    <h2>Latest notifications</h2>
+    <button class="btn-icon">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M19.5 7C20.0523 7 20.5 7.44772 20.5 8C20.5 8.55228 20.0523 9 19.5 9H17.3293C16.9175 10.1652 15.8062 11 14.5 11C13.1938 11 12.0825 10.1652 11.6707 9H5C4.44772 9 4 8.55228 4 8C4 7.44772 4.44772 7 5 7H11.6707C12.0825 5.83481 13.1938 5 14.5 5C15.8062 5 16.9175 5.83481 17.3293 7H19.5ZM16 8C16 8.82843 15.3284 9.5 14.5 9.5C13.6716 9.5 13 8.82843 13 8C13 7.17157 13.6716 6.5 14.5 6.5C15.3284 6.5 16 7.17157 16 8Z"
+          fill="currentColor"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M5 15C4.44772 15 4 15.4477 4 16C4 16.5523 4.44772 17 5 17H7.17071C7.58254 18.1652 8.69378 19 10 19C11.3062 19 12.4175 18.1652 12.8293 17H19.5C20.0523 17 20.5 16.5523 20.5 16C20.5 15.4477 20.0523 15 19.5 15H12.8293C12.4175 13.8348 11.3062 13 10 13C8.69378 13 7.58254 13.8348 7.17071 15H5ZM8.5 16C8.5 16.8284 9.17157 17.5 10 17.5C10.8284 17.5 11.5 16.8284 11.5 16C11.5 15.1716 10.8284 14.5 10 14.5C9.17157 14.5 8.5 15.1716 8.5 16Z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+  </header>
+  <h3>Date Range</h3>
+  <div class="range-holder">
+    <select
+      name="notification-from"
+      id="notification-from"
+      class="input"
+    >
+      <option selected disabled hidden>From</option>
+      <option value="date1">date1</option>
+      <option value="date2">date2</option>
+      <option value="date3">date3</option>
+    </select>
+    <select name="notification-to" id="notification-to" class="input">
+      <option selected disabled hidden>To</option>
+      <option value="date1">date1</option>
+      <option value="date2">date2</option>
+      <option value="date3">date3</option>
+    </select>
+    <button class="btn-icon">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.5 13.5L19 19"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M9.5 16C13.0899 16 16 13.0899 16 9.5C16 5.91015 13.0899 3 9.5 3C5.91015 3 3 5.91015 3 9.5C3 13.0899 5.91015 16 9.5 16ZM9.5 14C11.9853 14 14 11.9853 14 9.5C14 7.01472 11.9853 5 9.5 5C7.01472 5 5 7.01472 5 9.5C5 11.9853 7.01472 14 9.5 14Z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+  </div>
+  <!-- .log-list -->
+<style>
+  @import url("./elements/log-list/log-list.css");
+</style>
+<ul class="log-list">
+  <li>
+    <span class="log-type event">&bull; Event</span>
+    <em class="date"> 19 Jan, 15:56</em>
+    <p>Channel "RTVI" was restarted by scheduler at 15:55PM (IPBE)</p>
+    <ul class="tags">
+      <li><a href="#">#RTVI</a></li>
+      <li><a href="#">#restart</a></li>
+    </ul>
+  </li>
+  <li>
+    <span class="log-type app">&bull; App</span>
+    <em class="date"> 19 Jan, 13:15</em>
+    <p>
+      Failover "Sportaman_Playout" switched from Primary to Backup
+      because: "Sync loss"
+    </p>
+    <ul class="tags">
+      <li><a href="#">#sportaman_playout</a></li>
+      <li><a href="#">#sync_loss</a></li>
+    </ul>
+  </li>
+  <li>
+    <span class="log-type operation">&bull; Operation</span>
+    <em class="date"> 19 Jan, 13:15</em>
+    <p>Form "Sportaman_Playout" was successfuly saved</p>
+    <ul class="tags">
+      <li><a href="#">#sportaman_playout</a></li>
+      <li><a href="#">#save</a></li>
+    </ul>
+  </li>
+  <li>
+    <span class="log-type monitor">&bull; Monitor</span>
+    <em class="date"> 19 Jan, 13:15</em>
+    <p>Channel "PBS_KIDS" has 3 CC errors on 239.0.0.1 (TXR TX)</p>
+    <ul class="tags">
+      <li><a href="#">#pbs_kids</a></li>
+      <li><a href="#">#cc_error</a></li>
+    </ul>
+  </li>
+</ul>
+<!-- /.log-list -->
+
+  <!-- .breadcrumbs -->
+<style>
+  @import url("./elements/breadcrumbs/breadcrumbs.css");
+</style>
+<ul class="breadcrumbs">
+  <li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li>...</li>
+  <li><a href="#">24</a></li>
+</ul>
+<!-- /.breadcrumbs -->
+</section>
+<!-- /.notifications -->
+
+      <!-- .popup -->
+<style>
+  @import url("./elements/popup/popup.css");
+</style>
+<div class="popup">
+  <button class="btn-icon btn-close">
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.295 7.115C18.6844 6.72564 18.6844 6.09436 18.295 5.705C17.9056 5.31564 17.2744 5.31564 16.885 5.705L12 10.59L7.115 5.705C6.72564 5.31564 6.09436 5.31564 5.705 5.705C5.31564 6.09436 5.31564 6.72564 5.705 7.115L10.59 12L5.705 16.885C5.31564 17.2744 5.31564 17.9056 5.705 18.295C6.09436 18.6844 6.72564 18.6844 7.115 18.295L12 13.41L16.885 18.295C17.2744 18.6844 17.9056 18.6844 18.295 18.295C18.6844 17.9056 18.6844 17.2744 18.295 16.885L13.41 12L18.295 7.115Z"
+        fill="currentColor"
+      />
+    </svg>
+  </button>
+  <header>
+    <h2>AWE_from_Herring_PAL, events list</h2>
+    <button class="btn btn-border-blue">New event</button>
+  </header>
+  <h3>No event set here yet.</h3>
+  <p>
+    Please click the button above to add future single or periodic event,
+    to happen once or several times.
+  </p>
+</div>
+<!-- /.popup -->
+      
+      <!-- #footer -->
+<style>
+  @import url("./elements/footer/footer.css");
+</style>
+<footer id="footer"><p>&copy; Nextologies, 2022</p></footer>
+<!-- /#footer -->
+    </div>
+    <!-- <script type="text/javascript" src="js/all.min.js"></script> -->
+    <script>
+      // change theme
+      const themeToggle = document.getElementById("theme-toggle");
+      let storedTheme =
+        localStorage.getItem("theme") ||
+        (window.matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light");
+      if (storedTheme)
+        document.documentElement.setAttribute("data-theme", storedTheme);
+
+      themeToggle.onclick = function () {
+        let currentTheme = document.documentElement.getAttribute("data-theme");
+        let targetTheme = "light";
+
+        if (currentTheme === "light") {
+          targetTheme = "dark";
+        }
+        document.documentElement.setAttribute("data-theme", targetTheme);
+        localStorage.setItem("theme", targetTheme);
+      };
+
+      // change cards grid
+      const btnGridChange = document.getElementById("btn-grid-change");
+      btnGridChange.onclick = () =>
+        document.body.classList.toggle("cards-table-grid");
+    </script>
+  </body>
+</html>

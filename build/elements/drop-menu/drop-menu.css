@@ -1,0 +1,15 @@
+.drop-menu { font-size: var(--fz); position: absolute; z-index: 10; right: 0; width: auto; top: 100%; background: var(--white); -webkit-box-sizing: border-box; box-sizing: border-box; display: none; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 0px 0px 4px 4px; }
+
+.card .drop-menu { font-size: calc(var(--fz) - 4px); top: auto; bottom: 100%; border-radius: 4px; width: 100px; }
+
+.app-log-header .drop-menu { width: 130px; }
+
+.btn-app-holder .drop-menu { width: 230px; right: auto; left: 0; }
+
+.drop-menu a { padding: 7px 8px; display: block; text-decoration: none; color: var(--grey-black); }
+
+.drop-menu a:hover { background: var(--bluer); }
+
+.drop-menu.active { display: block; }
+
+/*# sourceMappingURL=../../../maps/elements/drop-menu/drop-menu.css.map */

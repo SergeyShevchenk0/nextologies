@@ -1,0 +1,13 @@
+.breadcrumbs-app { font-size: 0; margin: 0 0 8px; }
+
+.breadcrumbs-app > li { display: inline-block; vertical-align: middle; font-size: calc(var(--fz) - 1px); line-height: calc(var(--fz) + 4px); margin: 0 0 8px; }
+
+.breadcrumbs-app > li::after { content: "/"; display: inline-block; vertical-align: middle; margin: 0 8px; }
+
+.breadcrumbs-app > li:last-child:after { display: none; }
+
+.breadcrumbs-app > li a { color: var(--grey-black); display: inline-block; vertical-align: middle; background: var(--pale-str); padding: 5px 8px; border-radius: 14px; -webkit-box-sizing: border-box; box-sizing: border-box; height: 28px; }
+
+.breadcrumbs-app > li a:hover { text-decoration: none; background: var(--grey-light); }
+
+/*# sourceMappingURL=../../../maps/elements/breadcrumbs-app/breadcrumbs-app.css.map */

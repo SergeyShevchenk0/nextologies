@@ -49,4 +49,28 @@
       background-color: lighten(#2fa84f, 15%);
     }
   }
+  &.btn-border {
+    border: 2px solid var(--grey-light);
+    background: var(--white);
+    color: var(--grey-dark);
+    &:hover {
+      border-color: var(--grey-light);
+    }
+    &:focus {
+      border: 1px solid var(--grey-dark);
+    }
+    &:active {
+      opacity: 1;
+      border: 2px solid var(--grey-dark);
+    }
+  }
+  &.btn-border-blue {
+    border: 2px solid var(--action);
+    background: var(--white);
+    color: var(--action);
+    &:hover {
+      box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+    }
+    
+  }
 }

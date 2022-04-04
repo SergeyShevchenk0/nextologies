@@ -1,0 +1,17 @@
+.log-box { max-height: 420px; overflow: auto; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0 5px 0 0; }
+
+.log-box .search-form { position: sticky; top: 0; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); z-index: 2; }
+
+.log-box .search-form .search { background: #eef5ff; }
+
+.log-box .search { background: none; border-color: var(--grey-light) !important; }
+
+.log-box .log-info-list { font-size: calc(var(--fz) - 2px); font-weight: 600; }
+
+.log-box .log-info-list li { padding: 8px 0; border-bottom: 1px solid var(--grey-light); }
+
+.log-box .log-info-list p { margin: 0; }
+
+.log-box .log-info-list .log-time { font-style: normal; font-size: calc(var(--fz) - 4px); text-transform: uppercase; display: block; font-weight: 300; }
+
+/*# sourceMappingURL=../../../maps/elements/log-box/log-box.css.map */

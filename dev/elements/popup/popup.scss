@@ -1,0 +1,42 @@
+.popup {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 32px;
+  border: 1px solid var(--grey-light);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: var(--grey-black);
+  font-size: calc(var(--fz) - 1px);
+  .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 -32px 0 0;
+    width: 24px;
+    height: 24px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 24px;
+    h2 {
+      margin: 0 5px 0 0;
+    }
+  }
+  h3 {
+    font: calc(var(--fz) - 1px) var(--osc-bold);
+    color: var(--grey-black);
+  }
+  .btn-holder {
+    .btn {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 8px 0 0;
+    }
+  }
+}

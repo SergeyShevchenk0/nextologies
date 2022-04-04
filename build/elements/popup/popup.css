@@ -1,0 +1,13 @@
+.popup { position: relative; width: 100%; max-width: 520px; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 16px; margin: 32px; border: 1px solid var(--grey-light); box-sizing: border-box; -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 4px; color: var(--grey-black); font-size: calc(var(--fz) - 1px); }
+
+.popup .btn-close { position: absolute; top: 0; right: 0; margin: 0 -32px 0 0; width: 24px; height: 24px; }
+
+.popup header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin: 0 0 24px; }
+
+.popup header h2 { margin: 0 5px 0 0; }
+
+.popup h3 { font: calc(var(--fz) - 1px) var(--osc-bold); color: var(--grey-black); }
+
+.popup .btn-holder .btn { display: inline-block; vertical-align: top; margin: 0 8px 0 0; }
+
+/*# sourceMappingURL=../../../maps/elements/popup/popup.css.map */

@@ -22,4 +22,16 @@
 
 .btn.btn-green:hover { background-color: #54cf75; }
 
+.btn.btn-border { border: 2px solid var(--grey-light); background: var(--white); color: var(--grey-dark); }
+
+.btn.btn-border:hover { border-color: var(--grey-light); }
+
+.btn.btn-border:focus { border: 1px solid var(--grey-dark); }
+
+.btn.btn-border:active { opacity: 1; border: 2px solid var(--grey-dark); }
+
+.btn.btn-border-blue { border: 2px solid var(--action); background: var(--white); color: var(--action); }
+
+.btn.btn-border-blue:hover { -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+
 /*# sourceMappingURL=../../../maps/elements/btn/btn.css.map */

@@ -76,23 +76,6 @@
     display: inline-block;
     margin: 0 0 8px;
   }
-  .card-status {
-    color: #fff;
-    border-radius: 2px;
-    font-size: 8px;
-    text-align: center;
-    padding: 4px;
-    &.active {
-      background-color: var(--ok);
-    }
-    &.error {
-      background-color: var(--danger);
-    }
-    &.stopped {
-      background-color: var(--caution);
-      color: var(--grey-black);
-    }
-  }
   .grid6 {
     display: flex;
     align-items: center;
@@ -297,17 +280,17 @@
       position: relative;
       height: 24px;
       .card-menu {
-        font-size: 8px;
+        font-size: 9px;
         position: absolute;
         z-index: 2;
         right: 0;
-        width: 72px;
+        width: 100px;
         bottom: 100%;
         background: var(--white);
         box-sizing: border-box;
         padding: 4px 4px 4px 8px;
         display: none;
-        li {
+        > li {
           margin: 5px 0;
         }
         a {
